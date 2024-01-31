@@ -1,0 +1,26 @@
+.aboutMainDiv {
+  height: 390px;
+  border-radius: 12px;
+  background: #fff;
+  /* width: 100%; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  padding: 20px 16px;
+}
+
+.aboutStats{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+.aboutVerticalLine{
+    height: 2rem;
+    width: 0.01rem;
+    background-color: var(--primary-color);
+}
+
+.aboutDetailList{
+    margin-top: 2rem;
+    color: var(--primary-color);
+}

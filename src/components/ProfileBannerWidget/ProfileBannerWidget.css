@@ -1,0 +1,57 @@
+.profileWidgetMainDiv {
+  border-radius: 12px;
+  background: #fff;
+  width: 100%;
+  height: 330px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  margin-top: 1rem;
+  position: relative;
+}
+.bannerImage {
+  width: 100%;
+  height: 206px;
+  border-radius: 12px 12px 0px 0px;
+  background: url(../../assets/Images/profileBanner.png),
+    lightgray 50% / cover no-repeat;
+}
+
+.profileIntro {
+  /* background-color: red; */
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profileImageDiv {
+  height: 10rem;
+  width: 10rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileImageInnerDiv {
+  height: 9rem;
+  width: 9rem;
+  /* background-color: red; */
+  border-radius: 50%;
+}
+
+.profileNameAndBtn {
+  /* background-color: red; */
+  width: calc(100% - 220px);
+  padding: 0px 20px;
+}
+.profileName{
+    font-size: var(--heading1);
+    font-weight: 600;
+}
+.profileMention{
+    font-size: var(--heading2);
+    color: var(--primary-color);
+}

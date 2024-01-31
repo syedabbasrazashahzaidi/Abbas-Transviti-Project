@@ -1,0 +1,58 @@
+.navbarMainDiv{
+    background-color: white;
+    padding: 7px 0;
+}
+.navbarLogo {
+    height: 3rem;
+    width: fit-content;
+    /* background-color: pink; */
+}
+
+.navbarCol{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarSearchSelectDiv{
+    display: flex;
+    height: 2.2rem;
+    width: fit-content;
+    /* background-color: red; */
+    border-radius: 40px;
+    border: 1px solid #E2E2EA;
+    justify-content: center;
+}
+.navbarLocationSelect{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 40px;
+    background-color: white;
+    padding: 0px 7px;
+    border: 1px solid #E2E2EA;
+}
+
+.smallAvatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2E2EA;
+}
+
+.mobNavbarCol{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobNavbarCol{
+        display: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbarCol{
+        display: none;
+    }
+}
